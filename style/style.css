@@ -6,11 +6,15 @@
 }
 
 nav {
-    background-color: #cccccc42;
+    background-color: #EFECE3;
     padding: 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+nav img {
+    border-radius: 20px;
 }
 
 nav ul {
@@ -28,6 +32,12 @@ nav a {
     text-decoration: none;
     font-weight: 600;
     color: black;
+}
+
+.banner-text {
+    position: absolute;
+    top: 35%;
+    left: 10%;
 }
 
 
