@@ -1,0 +1,52 @@
+footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: #212529;
+}
+
+footer div.nome-site p{
+    color: black;
+    font-size: 23px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+footer p.titulo {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+footer p.primeiro-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+footer div.separador-vertical{
+    width: 1px; 
+    height: 20px; 
+    border-radius: 5px
+}
+
+footer i {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+footer i:hover {
+    filter: drop-shadow(0 0 7px white);
+}
+
+footer div.contato-grupo, a {
+    color: #F5E4D4;
+}
+
+footer a {
+    text-decoration: none;
+}

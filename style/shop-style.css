@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #EBDECE;
+    background-image: url("../images/bg/bg-shop-3.jpeg");
+    background-size: cover;    
+}
+
+section.main-content {
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 10px #cccccc98;
+}
+
+div.row {
+    margin: 0 auto;
+}
+
+.banner-content {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: auto;
+}
+
+.banner-content h1 {
+    color: white;
+    max-width: 90%;
+    position: relative;
+    left: 1%;
+    top: 55%;
+    text-align: left;
+}
+
+.descricao-produto {
+    overflow-y: scroll;
+    max-height: 100px;
+}
+
+div.titulo-pagina {
+    width: 98%;
+    padding: 5% 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 583px) {
+    div.banner-content {
+        background-image: url("../images/banner/banner-mb.jpg");
+    }
+
+    .banner-content h1 {
+        margin: 0 auto;
+        top: 15%;
+    }
+
+    section.main-content {
+        max-width: 90%;
+    }
+}
+
+@media screen and (min-width: 584px) {
+    div.banner-content {
+        background-image: url("../images/banner/banner-tab.jpg");
+    }
+
+    section.main-content {
+        max-width: 80%;
+    }
+}
+
+@media screen and (min-width: 920px) {
+    div.banner-content {
+        background-image: url("../images/banner/banner-web.jpg");
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    button.add-cart {
+        line-height: 0;
+        max-width: 100%;
+    }
+    button.add-cart span {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    button.add-cart {
+        max-width: 100%;
+    }
+    button.add-cart span {
+        display: inline;
+    }
+}
