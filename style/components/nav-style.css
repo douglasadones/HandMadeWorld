@@ -24,7 +24,18 @@ nav li {
     transition: all 200ms;
 }
 
-nav ul a {
+nav .btn-outline-dark {
+    border-color: rgb(121, 99, 71);
+    color: #371A09;
+}
+
+nav .btn-outline-dark:hover {
+    background-color: rgba(117, 70, 9, 0.514);
+    color: black;
+    border-color: rgb(121, 99, 71);
+}
+
+/* nav ul a {
     text-decoration: none;
     font-weight: 600;
     color: black;
@@ -33,7 +44,7 @@ nav ul a {
     border-radius: 1em;
     box-shadow: 2px 2px 10px #cccccc;
     border: 1px solid rgba(0, 0, 0, 0.041);
-}
+} */
 
 nav ul li:hover {
     padding: 30px;

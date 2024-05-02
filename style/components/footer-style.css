@@ -50,3 +50,8 @@ footer div.contato-grupo, a {
 footer a {
     text-decoration: none;
 }
+
+footer address {
+    display: flex;
+    text-wrap: wrap;
+}
