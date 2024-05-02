@@ -37,6 +37,8 @@ footer i {
     font-size: 20px;
     cursor: pointer;
     transition: all 200ms;
+    padding-right: 10px;
+    font-size: 1.5em;
 }
 
 footer i:hover {
@@ -54,4 +56,5 @@ footer a {
 footer p {
     display: flex;
     text-wrap: wrap;
+    align-items: center;
 }
