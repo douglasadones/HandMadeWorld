@@ -6,11 +6,32 @@ body {
     background-position: center;   
 }
 
+nav #bt-shop .btn-outline-dark {
+    background-color: rgba(117, 70, 9, 0.514);
+}
+
 section.main-content {
     padding: 10px;
     max-width: 70%;
     background-color: rgb(255, 255, 255);
     box-shadow: 2px 2px 10px #cccccc98;
+}
+
+.card {
+    background-color: transparent;
+    transition: all 200ms;
+}
+
+main .card {
+    height: 10%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    cursor: pointer;
 }
 
 div.row , section.main-content{

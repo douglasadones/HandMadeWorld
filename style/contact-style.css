@@ -10,6 +10,10 @@ body {
     background-position: center;
 }
 
+nav #bt-contact .btn-outline-dark {
+    background-color: rgba(117, 70, 9, 0.514);
+}
+
 main {
     min-height: 800px;
     padding: 30px;
