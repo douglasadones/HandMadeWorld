@@ -2,7 +2,8 @@ body {
     height: 100vh;
     background-color: #EBDECE;
     background-image: url("../images/bg/bg-shop.png");
-    background-size: cover;    
+    background-size: cover; 
+    background-position: center;   
 }
 
 section.main-content {
