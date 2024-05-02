@@ -13,26 +13,8 @@ section.main-content {
     box-shadow: 2px 2px 10px #cccccc98;
 }
 
-div.row , section.main-content, .banner-content h1 {
+div.row , section.main-content{
     margin: 0 auto;
-}
-
-.banner-content {
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 400px;
-    width: auto;
-}
-
-.banner-content h1 {
-    color: white;
-    max-width: 90%;
-    position: relative;
-    left: 1%;
-    top: 55%;
-    text-align: left;
-    font-family: 'DancingScript-bold', sans-serif;
-    font-size: 30px;
 }
 
 div.titulo-pagina {
@@ -47,41 +29,14 @@ div.titulo-pagina {
 }
 
 @media screen and (max-width: 583px) {
-    div.banner-content {
-        background-image: url("../images/banner/banner-mb.jpg");
-    }
-
-    .banner-content h1 {
-        top: 15%;
-        font-size: 35px;
-    }
-
     section.main-content {
         max-width: 90%;
     } 
 }
 
 @media screen and (min-width: 584px) {
-    div.banner-content {
-        background-image: url("../images/banner/banner-tab.jpg");
-    }
-
     section.main-content {
         max-width: 80%;
-    }
-
-    .banner-content h1 {
-        font-size: 45px;
-        top: 35%;
-    }
-}
-
-@media screen and (min-width: 920px) {
-    div.banner-content {
-        background-image: url("../images/banner/banner-web.jpg");
-    }
-    .banner-content h1 {
-        top: 55%;
     }
 }
 
@@ -93,10 +48,6 @@ div.titulo-pagina {
     button.add-cart span {
         display: none;
     }
-
-    .banner-content h1 {
-        font-size: 50px;
-    }
 }
 
 @media screen and (min-width: 1700px) {
@@ -105,9 +56,5 @@ div.titulo-pagina {
     }
     button.add-cart span {
         display: inline;
-    }
-
-    .banner-content h1 {
-        font-size: 60px;
     }
 }

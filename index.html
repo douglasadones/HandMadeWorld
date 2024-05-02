@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>HandMade World - Home</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="./style/root-style.css">
 
     <link rel="stylesheet" href="./style/components/nav-style.css">
 
     <link rel="stylesheet" href="./style/components/footer-style.css">
-
-    <link rel="stylesheet" href="./style/shop-style.css">
-
-    <link rel="stylesheet" href="./style/root-style.css">
     
-    <title>HandMade World</title>
+    <link rel="stylesheet" href="./style/home-style.css">
+
+    <link rel="stylesheet" href="./style/components/banner-style.css">
 </head>
 
 <body>
@@ -31,10 +31,10 @@
             </a>
             <ul>
                 <li>
-                    <a href="#"><button type="button" class="btn btn-outline-dark"><i class="bi bi-house"></i> Inicio</button></a>
+                    <a href="./index.html"><button type="button" class="btn btn-outline-dark"><i class="bi bi-house"></i> Inicio</button></a>
                 </li>
                 <li>
-                    <a href="./index.html"><button type="button" class="btn btn-outline-dark"><i class="bi bi-bag"></i> Loja</button></a>
+                    <a href="./shop.html"><button type="button" class="btn btn-outline-dark"><i class="bi bi-bag"></i> Loja</button></a>
                 </li>
                 <li>
                     <a href="./contact.html"><button type="button" class="btn btn-outline-dark"><i class="bi bi-envelope"></i> Contato</button></a>
@@ -48,376 +48,55 @@
             </form>
         </nav>
         <!-- NavBar -->
-    </header>
 
     <!-- Banner -->
-    <header>
         <div class="banner-content">
             <h1>Descubra o Mundo do Artesanato em Madeira na HandMade World - Onde Cada Peça Conta uma História!</h1>
         </div>
-    </header>
     <!-- Banner -->
+    
+</header>
+    <main>      
+        <div class="cabecalho">
+            <h1>Bem-vindo a HandMade World</h1>
+            <p>Seja bem-vindo a nossa loja. Aqui você vai encontrar diversos dos nossos produtos feitos a mão e com a maior qualidade que o mercado tem pra oferecer.</p>
+        </div>
 
-    <main>
-        <section class="main-content">
-            <div class="titulo-pagina">
-                <h2>Ultimos Lançamentos</h2>
-                <hr>
-                <h3>Wall Arts, Colecionáveis e mais!</h3>
+        <div class="container">
+
+            <div class="textos">
+                <div class="ajuste">
+                    <h2>Nossa história</h2>
+                    <p class="bloco">Começamos nossa jornada com uma pequena loja em 2015, nossos produtos eram feitos por encomenda e sempre buscamos inovação, por isso decidimos montar a nossa loja virtual.</p>        
+                    <p class="bloco">Desde lá fomos crescendo e temos lojas em outras três cidades inauguradas em 2017 e 2019, e hoje somos a melhor loja de produtos artesanais do estado.</p>
+                </div>
+
+                <div class="ajuste">
+                    <h2>Nossa missão</h2>            
+                    <p class="bloco">Nosso maior objetivo é sempre satisfazer os nossos clientes entregando nosso produto no menor prazo de entrega possível e com toda a qualidade que podemos oferecer!</p>
+                </div>
+
+                <div class="ajuste">
+                    <h2>Nossos Valores</h2>            
+                    <ul>
+                        <li>Qualidade das peças impecáveis</li>
+                        <li>Valor acessível</li>
+                        <li>Entregas feita com segurança</li>
+                        <li>Bom prazo de garantia</li>
+                        <li>Equipe de profissionais extremamente qualificada</li>
+                        <li>Produtos Confiáveis</li>
+                    </ul>
+                </div>
+            </div> 
+            
+            <div class="imagens">
+                    <img src="./images/home/pexels-photo-5974389.webp">
+                    <img src="./images/home/pexels-photo-6790032.webp">
+                    <img src="./images/home/pexels-photo-6956707.jpeg">
+                    <img src="./images/home/pexels-photo-6790081.jpeg">
             </div>
-            <div class="row w-100">
-                <div class="card text-start border-0 col-12 col-sm-6 col-md-6 col-lg-3 col-xl-2">
-                    <img src="./images/products/product1.webp" class="card-img-top rounded-4" alt="">
-                    <div class="card-body">
-                        <div class="text-warning">
-                            <small>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                            </small>
-                            <span class="text-black-50 small ms-2">5.0</span>
-                        </div>
-                        <h5 class="card-title text-black-50">Quadro Canada</h5>
-                        <h6 class="descricao-produto card-subtitle mb-2 text-muted">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Ducimus molestiae odio vel eveniet sunt alias asperiores
-                            perferendis vero.</h6>
-                        <p class="card-text fw-bold">R$ 250.00</p>
-                        <div class="d-flex">
-                            <button type="button" class="add-cart btn btn-outline-warning w-100 me-2">
-                                <i class="bi bi-cart"></i>
-                                <span>Comprar</span>
-                            </button>
-                            <button type="button" class="btn btn-outline-warning">
-                                <i class="bi bi-heart"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card text-start border-0 col-12 col-sm-6 col-md-6 col-lg-3 col-xl-2 ">
-                    <img src="./images/products/product2.webp" class="card-img-top rounded-4" alt="">
-                    <div class="card-body">
-                        <div class="text-warning">
-                            <small>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                            </small>
-                            <span class="text-black-50 small ms-2">5.0</span>
-                        </div>
-                        <h5 class="card-title text-black-50">Quadro Queimadas</h5>
-                        <h6 class="descricao-produto card-subtitle mb-2 text-muted">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Ducimus molestiae odio vel eveniet sunt alias asperiores
-                            perferendis vero.</h6>
-                        <p class="card-text fw-bold">R$ 300.00</p>
-                        <div class="d-flex">
-                            <button type="button" class="add-cart btn btn-outline-warning w-100 me-2">
-                                <i class="bi bi-cart"></i>
-                                <span>Comprar</span>
-                            </button>
-                            <button type="button" class="btn btn-outline-warning">
-                                <i class="bi bi-heart"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card text-start border-0 col-12 col-sm-6 col-md-6 col-lg-3 col-xl-2 ">
-                    <img src="./images/products/product3.webp" class="card-img-top rounded-4" alt="">
-                    <div class="card-body">
-                        <div class="text-warning">
-                            <small>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                            </small>
-                            <span class="text-black-50 small ms-2">5.0</span>
-                        </div>
-                        <h5 class="card-title text-black-50">Quadro Folha</h5>
-                        <h6 class="descricao-produto card-subtitle mb-2 text-muted">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Ducimus molestiae odio vel eveniet sunt alias asperiores
-                            perferendis vero.</h6>
-                        <p class="card-text fw-bold">R$ 200.00</p>
-                        <div class="d-flex">
-                            <button type="button" class="add-cart btn btn-outline-warning w-100 me-2">
-                                <i class="bi bi-cart"></i>
-                                <span>Comprar</span>
-                            </button>
-                            <button type="button" class="btn btn-outline-warning">
-                                <i class="bi bi-heart"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card text-start border-0 col-12 col-sm-6 col-md-6 col-lg-3 col-xl-2 ">
-                    <img src="./images/products/product4.webp" class="card-img-top rounded-4" alt="">
-                    <div class="card-body">
-                        <div class="text-warning">
-                            <small>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                            </small>
-                            <span class="text-black-50 small ms-2">5.0</span>
-                        </div>
-                        <h5 class="card-title text-black-50">Quadro Artístico</h5>
-                        <h6 class="descricao-produto card-subtitle mb-2 text-muted">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Ducimus molestiae odio vel eveniet sunt alias asperiores
-                            perferendis vero.</h6>
-                        <p class="card-text fw-bold">R$ 320.00</p>
-                        <div class="d-flex">
-                            <button type="button" class="add-cart btn btn-outline-warning w-100 me-2">
-                                <i class="bi bi-cart"></i>
-                                <span>Comprar</span>
-                            </button>
-                            <button type="button" class="btn btn-outline-warning">
-                                <i class="bi bi-heart"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card text-start border-0 col-12 col-sm-6 col-md-6 col-lg-3 col-xl-2 ">
-                    <img src="./images/products/product5.webp" class="card-img-top rounded-4" alt="">
-                    <div class="card-body">
-                        <div class="text-warning">
-                            <small>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                            </small>
-                            <span class="text-black-50 small ms-2">5.0</span>
-                        </div>
-                        <h5 class="card-title text-black-50">Conjunto Quadros Ondas</h5>
-                        <h6 class="descricao-produto card-subtitle mb-2 text-muted">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Ducimus molestiae odio vel eveniet sunt alias asperiores
-                            perferendis vero.</h6>
-                        <p class="card-text fw-bold">R$ 750.00</p>
-                        <div class="d-flex">
-                            <button type="button" class="add-cart btn btn-outline-warning w-100 me-2">
-                                <i class="bi bi-cart"></i>
-                                <span>Comprar</span>
-                            </button>
-                            <button type="button" class="btn btn-outline-warning">
-                                <i class="bi bi-heart"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card text-start border-0 col-12 col-sm-6 col-md-6 col-lg-3 col-xl-2 ">
-                    <img src="./images/products/product6.jpeg" class="card-img-top rounded-4" alt="">
-                    <div class="card-body">
-                        <div class="text-warning">
-                            <small>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                            </small>
-                            <span class="text-black-50 small ms-2">5.0</span>
-                        </div>
-                        <h5 class="card-title text-black-50">Quadro Handmade World</h5>
-                        <h6 class="descricao-produto card-subtitle mb-2 text-muted">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Ducimus molestiae odio vel eveniet sunt alias asperiores
-                            perferendis vero.</h6>
-                        <p class="card-text fw-bold">R$ 100.00</p>
-                        <div class="d-flex">
-                            <button type="button" class="add-cart btn btn-outline-warning w-100 me-2">
-                                <i class="bi bi-cart"></i>
-                                <span>Comprar</span>
-                            </button>
-                            <button type="button" class="btn btn-outline-warning">
-                                <i class="bi bi-heart"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card text-start border-0 col-12 col-sm-6 col-md-6 col-lg-3 col-xl-2 ">
-                    <img src="./images/products/product7.jpeg" class="card-img-top rounded-4" alt="">
-                    <div class="card-body">
-                        <div class="text-warning">
-                            <small>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                            </small>
-                            <span class="text-black-50 small ms-2">5.0</span>
-                        </div>
-                        <h5 class="card-title text-black-50">Kit Colecionáveis - HMW</h5>
-                        <h6 class="descricao-produto card-subtitle mb-2 text-muted">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Ducimus molestiae odio vel eveniet sunt alias asperiores
-                            perferendis vero.</h6>
-                        <p class="card-text fw-bold">R$ 150.00</p>
-                        <div class="d-flex">
-                            <button type="button" class="add-cart btn btn-outline-warning w-100 me-2">
-                                <i class="bi bi-cart"></i>
-                                <span>Comprar</span>
-                            </button>
-                            <button type="button" class="btn btn-outline-warning">
-                                <i class="bi bi-heart"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card text-start border-0 col-12 col-sm-6 col-md-6 col-lg-3 col-xl-2 ">
-                    <img src="./images/products/product8.jpg" class="card-img-top rounded-4" alt="">
-                    <div class="card-body">
-                        <div class="text-warning">
-                            <small>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                            </small>
-                            <span class="text-black-50 small ms-2">5.0</span>
-                        </div>
-                        <h5 class="card-title text-black-50">Mapa Mundi Completo</h5>
-                        <h6 class="descricao-produto card-subtitle mb-2 text-muted">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Ducimus molestiae odio vel eveniet sunt alias asperiores
-                            perferendis vero.</h6>
-                        <p class="card-text fw-bold">R$ 470.00</p>
-                        <div class="d-flex">
-                            <button type="button" class="add-cart btn btn-outline-warning w-100 me-2">
-                                <i class="bi bi-cart"></i>
-                                <span>Comprar</span>
-                            </button>
-                            <button type="button" class="btn btn-outline-warning">
-                                <i class="bi bi-heart"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card text-start border-0 col-12 col-sm-6 col-md-6 col-lg-3 col-xl-2 ">
-                    <img src="./images/products/product9.jpg" class="card-img-top rounded-4" alt="">
-                    <div class="card-body">
-                        <div class="text-warning">
-                            <small>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                            </small>
-                            <span class="text-black-50 small ms-2">5.0</span>
-                        </div>
-                        <h5 class="card-title text-black-50">The Erdtree</h5>
-                        <h6 class="descricao-produto card-subtitle mb-2 text-muted">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Ducimus molestiae odio vel eveniet sunt alias asperiores
-                            perferendis vero.</h6>
-                        <p class="card-text fw-bold">R$ 300.00</p>
-                        <div class="d-flex">
-                            <button type="button" class="add-cart btn btn-outline-warning w-100 me-2">
-                                <i class="bi bi-cart"></i>
-                                <span>Comprar</span>
-                            </button>
-                            <button type="button" class="btn btn-outline-warning">
-                                <i class="bi bi-heart"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card text-start border-0 col-12 col-sm-6 col-md-6 col-lg-3 col-xl-2 ">
-                    <img src="./images/products/product10.jpg" class="card-img-top rounded-4" alt="">
-                    <div class="card-body">
-                        <div class="text-warning">
-                            <small>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                            </small>
-                            <span class="text-black-50 small ms-2">5.0</span>
-                        </div>
-                        <h5 class="card-title text-black-50">Suporte Moderno</h5>
-                        <h6 class="descricao-produto card-subtitle mb-2 text-muted">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Ducimus molestiae odio vel eveniet sunt alias asperiores
-                            perferendis vero.</h6>
-                        <p class="card-text fw-bold">R$ 600.00</p>
-                        <div class="d-flex">
-                            <button type="button" class="add-cart btn btn-outline-warning w-100 me-2">
-                                <i class="bi bi-cart"></i>
-                                <span>Comprar</span>
-                            </button>
-                            <button type="button" class="btn btn-outline-warning">
-                                <i class="bi bi-heart"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card text-start border-0 col-12 col-sm-6 col-md-6 col-lg-3 col-xl-2 ">
-                    <img src="./images/products/product11.jpg" class="card-img-top rounded-4" alt="">
-                    <div class="card-body">
-                        <div class="text-warning">
-                            <small>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                            </small>
-                            <span class="text-black-50 small ms-2">5.0</span>
-                        </div>
-                        <h5 class="card-title text-black-50">Quadro Praise the Sun</h5>
-                        <h6 class="descricao-produto card-subtitle mb-2 text-muted">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Ducimus molestiae odio vel eveniet sunt alias asperiores
-                            perferendis vero.</h6>
-                        <p class="card-text fw-bold">R$ 220.00</p>
-                        <div class="d-flex">
-                            <button type="button" class="add-cart btn btn-outline-warning w-100 me-2">
-                                <i class="bi bi-cart"></i>
-                                <span>Comprar</span>
-                            </button>
-                            <button type="button" class="btn btn-outline-warning">
-                                <i class="bi bi-heart"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card text-start border-0 col-12 col-sm-6 col-md-6 col-lg-3 col-xl-2">
-                    <img src="./images/products/product12.jpg" class="card-img-top rounded-4" alt="">
-                    <div class="card-body">
-                        <div class="text-warning">
-                            <small>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                                <i class="bi bi-star-fill"></i>
-                            </small>
-                            <span class="text-black-50 small ms-2">5.0</span>
-                        </div>
-                        <h5 class="card-title text-black-50">Quadro Paisagem Montanhosa</h5>
-                        <h6 class="descricao-produto card-subtitle mb-2 text-muted">Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Ducimus molestiae odio vel eveniet sunt alias asperiores
-                            perferendis vero.</h6>
-                        <p class="card-text fw-bold">R$ 380.00</p>
-                        <div class="d-flex">
-                            <button type="button" class="add-cart btn btn-outline-warning w-100 me-2">
-                                <i class="bi bi-cart"></i>
-                                <span>Comprar</span>
-                            </button>
-                            <button type="button" class="btn btn-outline-warning">
-                                <i class="bi bi-heart"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
     </main>
-
     <footer>
         <div class="nome-site">
             <p>HANDMADEWORLD.COM</p>
@@ -451,5 +130,6 @@
             <i class="bi bi-linkedin"></i>
         </div>
     </footer>
-
+</body>
 </html>
+
