@@ -9,7 +9,7 @@ footer {
 
 footer div.nome-site p{
     color: black;
-    font-size: 23px;
+    font-size: 1em;
     cursor: pointer;
     font-weight: 500;
 }
@@ -51,7 +51,7 @@ footer a {
     text-decoration: none;
 }
 
-footer address {
+footer p {
     display: flex;
     text-wrap: wrap;
 }

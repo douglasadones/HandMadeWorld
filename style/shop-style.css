@@ -1,14 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 body {
     height: 100vh;
     background-color: #EBDECE;
-    background-image: url("../images/bg/bg-shop-3.jpeg");
+    background-image: url("../images/bg/bg-shop.png");
     background-size: cover;    
 }
 
@@ -38,6 +31,8 @@ div.row {
     left: 1%;
     top: 55%;
     text-align: left;
+    font-family: 'DancingScript-bold', sans-serif;
+    font-size: 30px;
 }
 
 .descricao-produto {
@@ -59,11 +54,13 @@ div.titulo-pagina {
     .banner-content h1 {
         margin: 0 auto;
         top: 15%;
+        font-size: 35px;
     }
 
     section.main-content {
         max-width: 90%;
     }
+    
 }
 
 @media screen and (min-width: 584px) {
@@ -74,11 +71,19 @@ div.titulo-pagina {
     section.main-content {
         max-width: 80%;
     }
+
+    .banner-content h1 {
+        font-size: 45px;
+        top: 35%;
+    }
 }
 
 @media screen and (min-width: 920px) {
     div.banner-content {
         background-image: url("../images/banner/banner-web.jpg");
+    }
+    .banner-content h1 {
+        top: 55%;
     }
 }
 
@@ -90,6 +95,10 @@ div.titulo-pagina {
     button.add-cart span {
         display: none;
     }
+
+    .banner-content h1 {
+        font-size: 50px;
+    }
 }
 
 @media screen and (min-width: 1700px) {
@@ -98,6 +107,10 @@ div.titulo-pagina {
     }
     button.add-cart span {
         display: inline;
+    }
+
+    .banner-content h1 {
+        font-size: 60px;
     }
 }
 
