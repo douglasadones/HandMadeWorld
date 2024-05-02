@@ -7,13 +7,12 @@ body {
 
 section.main-content {
     padding: 10px;
-    margin: 0 auto;
     max-width: 70%;
     background-color: rgb(255, 255, 255);
     box-shadow: 2px 2px 10px #cccccc98;
 }
 
-div.row {
+div.row , section.main-content, .banner-content h1 {
     margin: 0 auto;
 }
 
@@ -35,15 +34,15 @@ div.row {
     font-size: 30px;
 }
 
-.descricao-produto {
-    overflow-y: scroll;
-    max-height: 100px;
-}
-
 div.titulo-pagina {
     width: 98%;
     padding: 5% 0;
     text-align: center;
+}
+
+.descricao-produto {
+    overflow-y: scroll;
+    max-height: 100px;
 }
 
 @media screen and (max-width: 583px) {
@@ -52,15 +51,13 @@ div.titulo-pagina {
     }
 
     .banner-content h1 {
-        margin: 0 auto;
         top: 15%;
         font-size: 35px;
     }
 
     section.main-content {
         max-width: 90%;
-    }
-    
+    } 
 }
 
 @media screen and (min-width: 584px) {
@@ -112,8 +109,4 @@ div.titulo-pagina {
     .banner-content h1 {
         font-size: 60px;
     }
-}
-
-nav {
-    background-color: #ebdecef8;
 }

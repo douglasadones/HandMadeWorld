@@ -1,14 +1,16 @@
+body, main {
+    height: 100vh;
+}
+
 body {
     background-color: #EBDECE;
     background-image: url("../images/bg/bg-contact.jpeg");
     background-size: cover;    
     background-repeat: repeat;
     background-position: center;
-    height: 100vh;
 }
 
 main {
-    height: 100vh;
     min-height: 800px;
     padding: 30px;
     display: flex;
