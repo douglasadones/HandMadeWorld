@@ -10,7 +10,6 @@ footer {
 footer div.nome-site p{
     color: black;
     font-size: 1em;
-    cursor: pointer;
     font-weight: 500;
 }
 
@@ -49,6 +48,6 @@ footer div.contato-grupo, a {
     color: #F5E4D4;
 }
 
-footer a {
+footer a:hover {
     text-decoration: none;
 }
